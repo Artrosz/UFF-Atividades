@@ -9,7 +9,9 @@ imprimindo o produto para o usuário.
 */
 
 int main(){
+
 //variaveis que serão usadas ao longo de programa.
+
     int numero1, numero2, resultado;
 
 /*
