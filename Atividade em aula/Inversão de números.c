@@ -10,7 +10,7 @@ int main(){
     while(numero >= 0)
     {
     decomposicao = numero % 10;
-    printf("%d", decomposicao);
+    printf("\n%d", decomposicao);
     numero = numero / 10;
     }
 
