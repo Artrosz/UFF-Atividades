@@ -7,7 +7,7 @@ int main(){
     printf("Digite um numero: ");
     scanf("%d", &numero);
 
-    while(numero != 0)
+    while(numero >= 0)
     {
     decomposicao = numero % 10;
     printf("%d", decomposicao);
