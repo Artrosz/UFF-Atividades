@@ -13,7 +13,7 @@ int main(){
         base2 += resto * aux;
         aux *= 10;
     }    
-    printf("%d", base2);
+    printf("\n%d", base2);
 
      while (base2 != 0) {
         resto = base2 % 10;
