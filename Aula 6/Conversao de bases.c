@@ -12,15 +12,11 @@ int main(){
         numero = numero / 2;
         base2 += resto * aux;
         aux *= 10;
+        base10 += resto * potencia;
+        potencia = potencia * 2;
     }    
     printf("\n%d", base2);
 
-     while (base2 != 0) {
-        resto = base2 % 10;
-        base2 = base2 / 10;
-        base10 += resto * potencia;
-        potencia = potencia * 2;
-     }
     printf("\n%d", base10);
         
         
