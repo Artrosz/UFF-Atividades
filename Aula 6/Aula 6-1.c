@@ -1,3 +1,9 @@
+/*
+Data: 22/04/2024
+Protótipo de cálculo de idade mostrando o Ano, mês e dia de idade.
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
