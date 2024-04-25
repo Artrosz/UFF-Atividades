@@ -9,8 +9,8 @@ int anoN, mesN, diaN, anoA, mesA, diaA, ano, mes, dia;
 
     printf("Digite a data atual (dd,mm,aaaa): ");
     scanf("%d,%d,%d", &diaA, &mesA, &anoA);
-    
 
+    
     if(mesN > mesA && diaA < diaN){
         dia = diaN - diaA;
         ano = (anoA - anoN) - 1;
