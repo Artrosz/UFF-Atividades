@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 int main(){
-    long int numero, base2 = 0, base10, resto, aux = 1, potencia = 1;
+    int numero, base2 = 0, base10, resto, aux = 1, potencia = 1;
 
     printf("digite o numero que deseja converter: ");
-    scanf("%ld", &numero);
+    scanf("%d", &numero);
 
     while(numero != 0){
         resto = numero % 2;
@@ -15,11 +15,11 @@ int main(){
         base10 += resto * potencia;
         potencia = potencia * 2;
     }    
-     printf("\n%ld", base2);
+    printf("\nBinario: %d", base2);
 
-    printf("\n%ld", base10);
-        
-        
+    printf("\nDecimal: %d", base10);
+    
+    
     return 0;
 
-    }    
+    }
