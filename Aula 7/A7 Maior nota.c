@@ -18,7 +18,8 @@ int main (){
         maior = notas[j];
         }
     }
-        printf("%.2f", maior);
+    
+    printf("%.2f", maior);
 
     return 0;
 }
