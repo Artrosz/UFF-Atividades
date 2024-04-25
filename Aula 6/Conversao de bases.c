@@ -1,3 +1,7 @@
+// Data: 22/04/2024
+/* 
+Converter de base decimal para base binária, depois automáticamente voltar para o numero inicial na base decimal
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
