@@ -7,8 +7,7 @@
 
 int main (){
     
-   int maior = 0, menor = 100;
-    int i = 0, notas[3]; 
+   int menor = 100, i = 0, notas[3]; 
 
     for (i = 0; i < 3; i++){
     printf("Digita: ");
