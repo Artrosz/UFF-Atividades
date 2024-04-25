@@ -28,7 +28,7 @@ int main (){
         maior = notas[j];
         }
     }
-        printf("\nMaior  valor: %.2f", maior);
+    printf("\nMaior  valor: %.2f", maior);
 
     for (j = 0; j < 3; j++){
         menor = maior;
@@ -37,7 +37,7 @@ int main (){
 
         }
     }
-        printf("\nMenor  valor: %.2f", menor);
+    printf("\nMenor  valor: %.2f", menor);
 
     
     return 0;
