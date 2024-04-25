@@ -15,15 +15,17 @@ int main (){
         soma += notas[i];
 
     }
-        media = soma / i;
-         printf("\nA media eh: %.2f", media);
+
+    media = soma / i;
+    printf("\nA media eh: %.2f", media);
 
     for (j = 0; j < 3; j++){
         if (notas [j] > maior){
         maior = notas[j];
         }
     }
-        printf("\nMaior  valor: %.2f", maior);
+    
+    printf("\nMaior  valor: %.2f", maior);
 
     return 0;
 }
