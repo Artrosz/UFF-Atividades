@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 int main (){
-    float notas [3], maior = 0, soma = 0, media;
+    float notas [3], maior = 0, soma = 0;
     int i = 0, j = 0, contador = 0; 
 
     for (i = 0; i < 3; i++){
