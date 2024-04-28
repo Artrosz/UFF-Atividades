@@ -16,8 +16,8 @@ Checklist
 #include <stdio.h>
 
 int main (){
-    float notas[5], media, maior = 0, menor, maiorQue6 = 0;
-    int i = 0, menorQue6 = 0;
+    float notas[5], media, maior = 0, menor;
+    int i = 0, menorQue6 = 0, maiorQue6 = 0;
     
 
     for(i = 0; i < 5; i++){
@@ -47,9 +47,9 @@ int main (){
 
     printf("\nA maior nota da turma foi: %.2f", maior);
     printf("\nA menor nota da turma foi: %.2f", menor);
-    printf("\nA quantidade de alunos que tiraram mais que 6 foi de: %.0f", maiorQue6);
     printf("\nA media da turma toda foi de: %.2f", media);
     printf("\nA quantidade de alunos que tiraram menos que 6 foi de: %d", menorQue6);
+    printf("\nA quantidade de alunos que tiraram mais que 6 foi de: %d", maiorQue6);
 
 
 
